@@ -1,0 +1,16 @@
+/*menu*/
+#menu li>a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+/*carrusel*/
+.carousel-inner{
+    max-height:  350px;
+}
+/*logo*/
+.navbar-brand img{
+    width: 75 px;
+    height: 75px;
+}
