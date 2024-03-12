@@ -891,6 +891,12 @@ section {
   padding: 120px 0;
 }
 
+.cta1 {
+  background: linear-gradient(rgba(36, 38, 41, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+
 .cta h3 {
   color: #fff;
   font-size: 28px;
@@ -938,6 +944,10 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
   list-style: none;
   margin-bottom: 20px;
 }
@@ -975,14 +985,14 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
+  opacity: 1 ;
   position: absolute;
   left: 15px;
   bottom: 0;
   z-index: 3;
   right: 15px;
   transition: all 0.3s;
-  background: rgba(55, 81, 126, 0.8);
+  background: rgba(23, 18, 66, 0.8);
   padding: 10px 15px;
 }
 
@@ -1092,7 +1102,7 @@ section {
   padding: 0;
 }
 
-/*--------------------------------------------------------------
+  /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team .member {
@@ -1817,8 +1827,24 @@ section {
     text-align: center;
     float: none;
   }
+  
 
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+.btn-contacto {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #25D366; /* Cambia el color según tu diseño */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-contacto:hover {
+  background-color: green; /* Cambia el color de fondo al pasar el ratón */
+  color: white;
 }

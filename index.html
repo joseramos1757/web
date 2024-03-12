@@ -39,6 +39,33 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    /* Estilos normales para pantallas más grandes */
+    #portfolio-flters {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+    }
+  
+    #portfolio-flters li {
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  
+    /* Estilos para pantallas más pequeñas */
+    @media only screen and (max-width: 600px) {
+      #portfolio-flters {
+        flex-direction: column; /* Cambia la dirección a columna en pantallas más pequeñas */
+        align-items: center; /* Centra los elementos en el eje transversal */
+      }
+  
+      #portfolio-flters li {
+        margin: 10px 0; /* Espaciado entre elementos */
+      }
+    }
+  </style>
+  
 </head>
 
 <body>
@@ -211,124 +238,7 @@
 
       </div>
     </section><!-- FIN MISION Y VISION
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
-          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/skills.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>ESTUDIANTES TITULADOS</h3>
-            <p class="fst-italic">
-              En el Instituto Técnico Berlin, tenemos la mayor cantidad de estudiantes titulados que son parte ahora del ambito laboral realizando año tras año un evento para su colación de grado
-            </p>
-
-            <div class="skills-content">
-
-              <div class="progress">
-                <span class="skill">TÉCNICO SUPERIOR <i class="val">89%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">TÉCNICO MEDIO<i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">TÉCNICO BASICO <i class="val">92%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">CAPACITACIÓN<i class="val">95%</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>SERVICIOS</h2>
-          <p>Ofrecemos los servicios en educación superior a nivel Capacitación, Técnico Medio y Técnico Superior </p>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">SUCURSALES</a></h4>
-              <p>Contamos con distintas sucursales en El alto, Villa dolores, Sagarnaga</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">RESOLUCIÓN MINISTERIAL</a></h4>
-              <p>Contamos con Resolución Ministerial 0267/2019 actualizada con el Ministerio de Educación</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">RAPIDEZ</a></h4>
-              <p>Los tramites se realizan de forma rapida y eficaz para que ingreses al mundo laboral</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">CERTIFICACIÓN</a></h4>
-              <p>Contamos con seminarios y cursos de capacitación todo con certificación</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>INGRESA A NUESTRA PAGINA DE FACEBOOK</h3>
-            <p>Donde encontraran todas nuestras publicaciones para estar al tanto de promociones y descuentos</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="https://www.facebook.com/Institutotecnicoberlin">INGRESAR</a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
-
-    <!-- ======= Portfolio Section ======= -->
+          <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
@@ -337,12 +247,14 @@
           <p>Contamos con carreras a nivel Técnico Superior, Técnico Medio y Capacitación</p>
         </div>
 
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">TODAS LAS CARRERAS</li>
-          <li data-filter=".filter-app">TÉCNICO SUPERIOR</li>
-          <li data-filter=".filter-card">TÉCNICO MEDIO</li>
-          <li data-filter=".filter-web">CAPACITACIÓN</li>
-        </ul>
+        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100" style="list-style: none; padding: 0;">
+
+          <li data-filter="*" class="filter-active" style="margin: 0 10px; cursor: pointer;">TODAS LAS CARRERAS</li>
+          <li data-filter=".filter-app" style="margin: 0 10px; cursor: pointer;">TÉCNICO SUPERIOR</li>
+          <li data-filter=".filter-card" style="margin: 0 10px; cursor: pointer;">TÉCNICO MEDIO</li>
+          <li data-filter=".filter-web" style="margin: 0 10px; cursor: pointer;">CAPACITACIÓN</li>
+      
+      </ul>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
               <!-- ======= Carreras tecnico medio ======= -->
@@ -354,15 +266,16 @@
               <a href="enfermeria.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/belleza2.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
-            <div class="portfolio-info">
-              <h4>BELLEZA INTEGRAL</h4>
-              <p>Técnico Medio</p>
-              <a href="belleza.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
-            </div>
-          </div>
+
               <!-- ======= Carrera tecnico superior ======= -->
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-img"><img src="assets/img/portfolio/belleza2.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
+                <div class="portfolio-info">
+                  <h4>BELLEZA INTEGRAL</h4>
+                  <p>Técnico Superior</p>
+                  <a href="belleza.html" class="details-link" title="More Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-img"><img src="assets/img/portfolio/sistemas3.jpg" width="500" class="img-fluid img-thumbnail" alt=""></div>
             <div class="portfolio-info">
@@ -469,6 +382,133 @@
 
       </div>
     </section><!-- End Portfolio Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>ESTUDIANTES TITULADOS</h3>
+            <p class="fst-italic">
+              En el Instituto Técnico Berlin, tenemos la mayor cantidad de estudiantes titulados que son parte ahora del ambito laboral realizando año tras año un evento para su colación de grado
+            </p>
+
+            <div class="skills-content">
+
+              <div class="progress">
+                <span class="skill">TÉCNICO SUPERIOR <i class="val">89%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">TÉCNICO MEDIO<i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CAPACITACIÓN<i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>SERVICIOS</h2>
+          <p>Ofrecemos los servicios en educación superior a nivel Capacitación, Técnico Medio y Técnico Superior </p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">SUCURSALES</a></h4>
+              <p>Contamos con distintas sucursales en El alto, Villa dolores, Sagarnaga</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">RESOLUCIÓN MINISTERIAL</a></h4>
+              <p>Contamos con Resolución Ministerial 0267/2019 actualizada con el Ministerio de Educación</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">RAPIDEZ</a></h4>
+              <p>Los tramites se realizan de forma rapida y eficaz para que ingreses al mundo laboral</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">CERTIFICACIÓN</a></h4>
+              <p>Contamos con seminarios y cursos de capacitación todo con certificación</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>INGRESA A NUESTRA PAGINA DE FACEBOOK</h3>
+            <p>Donde encontraran todas nuestras publicaciones para estar al tanto de promociones y descuentos</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://www.facebook.com/Institutotecnicoberlin">INGRESAR</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section><!-- End Cta Section -->
+
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+          <div class="container" data-aos="zoom-in">
+            <div class="row">
+              <div class="col-lg-9 text-center text-lg-start">
+                <h3>INGRESA A NUESTRA CUENTA OFICIAL DE TIK TOK</h3>
+                <p>Donde encontraran todas nuestras publicaciones para estar al tanto de promociones y descuentos</p>
+              </div>
+              <div class="col-lg-3 cta-btn-container text-center">
+                <a class="cta-btn align-middle" href="https://www.tiktok.com">INGRESAR</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section><!-- End Cta Section -->
+
+
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -826,7 +866,7 @@
   <div id="preloader"></div>
   <a href="img/berlin.png" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <!-- boton whatsaoo flotante -->
-  <a href="https://wa.me/+59162289731" class="btn-wsp" target="_blank">
+  <a href="https://wa.me/+59176791708" class="btn-wsp" target="_blank">
     <i class="fa fa-whatsapp icono"></i>
 </a>
 
